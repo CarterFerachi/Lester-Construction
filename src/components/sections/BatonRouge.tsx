@@ -20,7 +20,7 @@ export default function BatonRouge() {
       {/* Background image with parallax */}
       <motion.div className="absolute inset-0 z-0" style={{ y: bgY }}>
         <img
-          src="https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_003100_3277adb4-c4a5-425d-96cf-0798e1b3be01.png"
+          src="https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_004100_0b21403f-77f4-4518-b18b-d3bb9d8da5a4.png"
           alt="Baton Rouge Louisiana"
           className="w-full h-full object-cover scale-110"
         />

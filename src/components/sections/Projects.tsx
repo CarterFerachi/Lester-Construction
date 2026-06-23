@@ -49,7 +49,7 @@ const projects = [
     type: "Concrete Patio",
     location: "Baton Rouge",
     scope: "Custom patio with integrated fire pit surround and outdoor kitchen slab",
-    image: "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_003105_fafd90c3-234f-496e-9733-9a25acafaf47.png",
+    image: "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_004058_c9edfa0a-418a-480b-992f-48f1e7816c4c.png",
     tag: "Concrete",
   },
 ];
