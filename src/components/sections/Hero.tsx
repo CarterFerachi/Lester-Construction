@@ -164,6 +164,22 @@ export default function Hero() {
             </svg>
           </button>
         </motion.div>
+
+        {/* Phone CTA */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: loaded ? 1 : 0 }}
+          transition={{ duration: 0.8, delay: 2 }}
+          className="mt-10 flex items-center justify-center gap-3"
+        >
+          <span className="text-white/25 text-xs tracking-widest uppercase">Or call us now</span>
+          <a
+            href="tel:+12255550100"
+            className="text-gold/80 hover:text-gold text-sm font-medium tracking-wider transition-colors border-b border-gold/20 hover:border-gold/60 pb-0.5"
+          >
+            (225) 555-0100
+          </a>
+        </motion.div>
       </motion.div>
 
       {/* Scroll Indicator */}
