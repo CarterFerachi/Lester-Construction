@@ -3,24 +3,26 @@
 import { useRef, useState, useCallback } from "react";
 import { motion, useInView } from "framer-motion";
 
+const CDN = "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V";
+
 const projects = [
   {
+    label: "Home Remodel",
+    before: `${CDN}/hf_20260623_011252_f11000ca-d7bb-48bf-a59a-10a5620311d5.png`,
+    after: `${CDN}/hf_20260623_003109_0e9eb931-851e-4e97-83fd-7fc5e115a4e9.png`,
+    location: "Prairieville, LA",
+  },
+  {
     label: "Concrete Driveway",
-    before: "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_003101_0a174798-7b34-4ad7-9462-e98585c43552.png",
-    after: "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_003105_fafd90c3-234f-496e-9733-9a25acafaf47.png",
+    before: `${CDN}/hf_20260623_011253_d0c31f97-7829-40b1-9adf-35038c07e4c0.png`,
+    after: `${CDN}/hf_20260623_003105_fafd90c3-234f-496e-9733-9a25acafaf47.png`,
     location: "Baton Rouge, LA",
   },
   {
     label: "Custom Fencing",
-    before: "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_003101_0a174798-7b34-4ad7-9462-e98585c43552.png",
-    after: "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_003107_c539bab0-af57-452d-a037-84e4c1d6f95f.png",
+    before: `${CDN}/hf_20260623_011254_fb349817-1684-4e7f-ad89-4613d781610b.png`,
+    after: `${CDN}/hf_20260623_003107_c539bab0-af57-452d-a037-84e4c1d6f95f.png`,
     location: "Zachary, LA",
-  },
-  {
-    label: "Home Remodel",
-    before: "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_003101_0a174798-7b34-4ad7-9462-e98585c43552.png",
-    after: "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_003109_0e9eb931-851e-4e97-83fd-7fc5e115a4e9.png",
-    location: "Prairieville, LA",
   },
 ];
 
