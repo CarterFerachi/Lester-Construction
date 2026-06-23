@@ -8,20 +8,20 @@ const CDN = "https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk
 const projects = [
   {
     label: "Home Remodel",
-    before: `${CDN}/hf_20260623_011252_f11000ca-d7bb-48bf-a59a-10a5620311d5.png`,
-    after: `${CDN}/hf_20260623_003109_0e9eb931-851e-4e97-83fd-7fc5e115a4e9.png`,
+    before: `${CDN}/hf_20260623_011751_0f481952-2840-4bf3-b4b6-ede0562676f7.png`,
+    after: `${CDN}/hf_20260623_012214_7ece6204-dc7b-4215-ac6c-88315a6612f6.jpeg`,
     location: "Prairieville, LA",
   },
   {
     label: "Concrete Driveway",
-    before: `${CDN}/hf_20260623_011253_d0c31f97-7829-40b1-9adf-35038c07e4c0.png`,
-    after: `${CDN}/hf_20260623_003105_fafd90c3-234f-496e-9733-9a25acafaf47.png`,
+    before: `${CDN}/hf_20260623_011749_7df3abbe-5466-41d9-a755-3e87e562dca4.png`,
+    after: `${CDN}/hf_20260623_012202_cdba5902-71de-4fa4-9396-d5b0c0c38561.jpeg`,
     location: "Baton Rouge, LA",
   },
   {
     label: "Custom Fencing",
-    before: `${CDN}/hf_20260623_011254_fb349817-1684-4e7f-ad89-4613d781610b.png`,
-    after: `${CDN}/hf_20260623_003107_c539bab0-af57-452d-a037-84e4c1d6f95f.png`,
+    before: `${CDN}/hf_20260623_011750_49b4c8db-3272-4124-8e5b-4970d4a7a3d1.png`,
+    after: `${CDN}/hf_20260623_012208_fafc5da9-41e4-4403-b9f1-5f66a543742d.jpeg`,
     location: "Zachary, LA",
   },
 ];
