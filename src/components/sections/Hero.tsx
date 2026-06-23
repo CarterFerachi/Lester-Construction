@@ -26,7 +26,7 @@ export default function Hero() {
       {/* Background Image with Parallax */}
       <motion.div className="absolute inset-0 z-0" style={{ y, scale }}>
         <img
-          src="https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_012547_86f2b51f-7d65-4056-b489-33cebee6646a.jpeg"
+          src="https://d8j0ntlcm91z4.cloudfront.net/user_3FVcuBaoBTkgMgDv4hAHDXGVk6V/hf_20260623_012850_0a44a95e-483c-41f7-9b1e-769c74490458.jpeg"
           alt="Luxury Louisiana home"
           className="w-full h-full object-cover"
           onLoad={() => setLoaded(true)}
